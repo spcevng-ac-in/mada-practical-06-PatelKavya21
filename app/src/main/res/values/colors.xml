@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">@android:color/darker_gray</color>
+    <color name="purple_500">#EA80FC</color>
+    <color name="purple_700">#82B1FF</color>
+    <color name="teal_200">#84FFFF</color>
+    <color name="teal_700">#FF8A80</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white1">#FFFFFF</color>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <!-- Edit Text View to input the values -->
+
+    <!-- Edit Text View to input 2nd value -->
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:hint="Number1"
+        android:inputType="number"
+        android:layout_marginBottom="25dp"
+        />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@color/white1"
+        android:hint="Number 2"
+        android:inputType="number"
+        />
+
+    <!-- Text View to display result -->
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="48dp"
+        android:background="#FFFFFF"
+        android:text="result" />
+
+    <!-- A button to perform 'sum' operation -->
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doSum"
+        android:text="+"
+        />
+
+    <!-- A button to perform subtraction operation -->
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doSub"
+        android:text="-"
+        />
+
+    <!-- A button to perform division operation -->
+    <Button
+        android:id="@+id/div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doDiv"
+        android:text="/"
+        />
+
+    <!-- A button to perform multiplication operation -->
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doMul"
+        android:text="*"
+        />
+
+    <Button
+        android:id="@+id/mod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doMod"
+        android:text="%(mod)"
+        />
+</LinearLayout>
